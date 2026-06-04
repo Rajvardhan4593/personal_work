@@ -1,0 +1,14 @@
+-- GIT Commands Reference:
+1. Push a new file to respective branch.
+   cd /path/to/your/repository            // Change dir
+   git branch                             // Check the branch or status using 'git status'
+   git pull origin __branch_name__        // Pull from the respective branch or use 'git pull' you're already tracking the remote branch
+   git add folderB/newFile.txt            // Add the new file
+   git commit -m "Added newFile.txt"      // Commit new file
+   git push origin __branch_name__        // Push the committed data to repository/branch
+
+
+2. Check git credentials
+   git config user.name                   // Prints current logged in user name
+   git config user.email                  // Prints current logged in user email
+   
