@@ -1,3 +1,13 @@
+/*
+    Notes: - These pragmas tell the compiler "My program may read or modify the floating-point environment."
+             The floating-point environment includes things like:
+             - rounding mode
+             - floating-point exceptions
+             - overflow/underflow flags
+             - divide-by-zero flags
+             By default this pragma is OFF.
+*/
+
 #include <iostream>
 #include <cfenv>    // In your compiler settings, select cpp version > 11 to enable this library to be used
 using namespace std;

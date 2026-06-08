@@ -12,3 +12,5 @@
    git config user.name                   // Prints current logged in user name
    git config user.email                  // Prints current logged in user email
    
+3. Check for changes in particular file
+   git diff /path/to/changed/file
